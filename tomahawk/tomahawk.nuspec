@@ -13,7 +13,7 @@
     <copyright></copyright>
     <licenseUrl>https://github.com/tomahawk-player/tomahawk/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>http://cdn.rawgit.com/https://github.com/joe-niland/chocolatey-tomahawk/master/icons/tomahawk.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/joe-niland/chocolatey-tomahawk/master/icons/tomahawk.png</iconUrl>
     <releaseNotes>Initial package</releaseNotes>
   </metadata>
   <files>
