@@ -1,7 +1,7 @@
 Set-Variable -Name ChocolateyTemplateDir -Value c:\code\_templates\chocolatey -Option Constant
 Set-Variable -Name PackageName -Value tomahawk -Option Constant
 
-cinst warmup ketarin ussf
+cinst warmup ketarin ussf nuget.commandline
 
 warmup addTextReplacement __CHOCO_PKG_MAINTAINER_NAME__ "Joe Niland"
 warmup addTextReplacement __CHOCO_PKG_MAINTAINER_REPO__  "https://github.com/joe-niland/chocolatey-tomahawk"
