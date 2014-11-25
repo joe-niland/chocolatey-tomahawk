@@ -3,7 +3,7 @@
   <metadata>
     <id>tomahawk</id>
     <title>Tomahawk</title>
-    <version>0.8.0.0</version>
+    <version>0.8.2.0</version>
     <authors>Tomahawk Developers (http://www.tomahawk-player.org/about.html)</authors>
     <owners>Joe Niland</owners>
     <summary>Tomahawk, the multi-source music player</summary>
@@ -14,7 +14,26 @@
     <licenseUrl>https://github.com/tomahawk-player/tomahawk/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/joe-niland/chocolatey-tomahawk/master/icons/tomahawk.png</iconUrl>
-    <releaseNotes>Initial package</releaseNotes>
+    <releaseNotes>
+      Version 0.8.2
+
+      + Show error message if saving tags failed.
+      + Fixed painting issue on search page.
+      + (OS X &amp; Windows) Fixed crash during collection scan.
+
+      Version 0.8.1
+
+      + Disabled sorting for stations.
+      + Fixed drag &amp; drop behavior in combination with certain resolvers.
+      + Fixed infinite scanning recursion.
+      + Prevented adding dupes to the collection when scanning.
+      + When playing an artist or album, don't give up when the first track in list isn't playable.
+      + Fixed importing M3U playlists.
+      + Sort album grids by artist name.
+      + Fixed painting issue on 'More Albums' grid.
+      + Fixed crash when editing/saving track tags.
+
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
