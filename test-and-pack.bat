@@ -1,4 +1,4 @@
 pushd tomahawk
-cinst tomahawk -source "%cd%" -force
 cpack
+cinst tomahawk -source "%cd%" -force
 popd
