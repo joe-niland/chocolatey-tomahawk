@@ -1,6 +1,6 @@
 ﻿$packageName = 'tomahawk'
 $installerType = 'EXE'
-$url = 'http://download.tomahawk-player.org/tomahawk-0.8.2.exe'
+$url = 'http://download.tomahawk-player.org/tomahawk-0.8.4.exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)
 

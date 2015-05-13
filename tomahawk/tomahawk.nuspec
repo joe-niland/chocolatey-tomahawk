@@ -3,7 +3,7 @@
   <metadata>
     <id>tomahawk</id>
     <title>Tomahawk</title>
-    <version>0.8.2.0</version>
+    <version>0.8.4</version>
     <authors>Tomahawk Developers (http://www.tomahawk-player.org/about.html)</authors>
     <owners>Joe Niland</owners>
     <summary>Tomahawk, the multi-source music player</summary>
@@ -15,6 +15,27 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/joe-niland/chocolatey-tomahawk/master/icons/tomahawk.png</iconUrl>
     <releaseNotes>
+      Version 0.8.4
+
+      + Fixed drag &amp; drop issues on sidebar.
+      + Fixed starting Tomahawk with a filename as parameter.
+      + Update column view when collection changes.
+      + (Linux) Don't crash on environments with invalid locales.
+      
+      Version 0.8.3
+
+      + Performance improvements for collection browsing.
+      + Improved memory footprint.
+      + Show cloud collections above your friends in the sidebar.
+      + Keep looking for alternative sources even when we found a perfect match.
+      + Fixed crash in network code.
+      + Fixed repeat one/all icons.
+      + Be more lenient about accepting JSPF and M3U playlists.
+      + Improved support for compilation albums.
+      + (Windows) Fixed support for Windows XP.
+      + (OS X) Fixed settings dialog appearance on Yosemite.
+      + (OS X) Fixed SSL errors on Yosemite.
+
       Version 0.8.2
 
       + Show error message if saving tags failed.
